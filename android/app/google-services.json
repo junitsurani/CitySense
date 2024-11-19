@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "891597510101",
+    "project_id": "citysense-c9e37",
+    "storage_bucket": "citysense-c9e37.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891597510101:android:0601fdd7a189e20cb4595c",
+        "android_client_info": {
+          "package_name": "com.example.city_sense"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA1Mc2OU2ZapYqEzz5nH5V5xqW2n6isRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
