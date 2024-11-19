@@ -1,19 +1,28 @@
 import 'package:flutter/material.dart';
+import 'Screens/login.dart';
+// import 'firebase_options.dart';
+// import 'package:firebase_core/firebase_core.dart';
 
-void main() {
+void main() async {
+  // WidgetsFlutterBinding.ensureInitialized();
+  // await Firebase.initializeApp(
+  //   options: DefaultFirebaseOptions.currentPlatform,
+  // );
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp({Key? key}) : super(key: key);
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Rain Map'),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Flutter Auth App',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
       ),
+      home: const LoginScreen(),
     );
   }
 }
